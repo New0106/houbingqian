@@ -15,6 +15,7 @@ public class Viewindex extends HttpServlet {
 		response.setCharacterEncoding("utf-8");
 		request.setCharacterEncoding("utf-8");
 		request.getRequestDispatcher("/WEB-INF/login.jsp").forward(request, response);
+		return;
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
